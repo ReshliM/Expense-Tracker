@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    background: rgb(174, 173, 173);
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px ;                        ;
+    color: #141316;
+    font-style: italic;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+  
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+    font-size: 20px;
+    font-weight: 200px;
+    background-color: #0d110e;
+    color: #ddd;
+}
+
+button:hover {
+    background-color: #a4a0a0;
+    color: #141316;
+  
+}
+.head{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.expenses-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#expenseList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#expenseList li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #0f0e0e;
+    font-size: 20px;
+}
+
+.chart-container {
+    margin-top: 40px;
+}
+
+canvas {
+    max-width: 100%;
+}
+table,th,td {
+    border-collapse: collapse;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  
+    
+  @media only screen and (max-width: 600px) {
+    .form-container {
+        display: flex;
+       flex-direction: column;
+        margin-bottom: 20px;
+    
+    }
+    .head{
+        padding-top: 20px;
+    }
+    button {
+  
+        background-color: #a4a0a0;
+        color: #141316;
+       border: 1px solid black;
+        font-size: 20px;
+       
+       
+    }
+
+  }
